@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.box {
+    height: 6.9rem;
+    width: 6.9rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid gray;
+    border-radius: 0.4rem;
+    box-shadow: 0.005rem 0.005rem 0.5rem 0.1rem rgb(26, 26, 249);
+    cursor: pointer;
+    /* background: linear-gradient(to bottom,rgb(5, 5, 129), rgb(1, 1, 219));
+    background: linear-gradient(to bottom,green, rgb(1, 162, 1));
+    background: linear-gradient(to bottom,rgb(171, 111, 0), orange); */
+    /* background: linear-gradient(to top,grey, rgb(232, 232, 232)); */
+    /* background-color: orange; */
+}
+
+.box h1 {
+    font-size: 3.5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.box .X {
+    color: red;
+}
+
+.box .O {
+    color: blue;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) {
+  
+    .box {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 0.5rem;
+        /* background-color: orange; */
+    }
+
+    .box h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+  
+    .box {
+        height: 5.5rem;
+        width: 5.5rem;
+        border-radius: 0.5rem;
+        /* background-color: orange; */
+    }
+
+    .box h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1024px) {
+  
+    .box {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 0.5rem;
+        /* background-color: orange; */
+    }
+
+    .box h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  
+    .box {
+        height: 6.5rem;
+        width: 6.5rem;
+        border-radius: 0.5rem;
+        /* background-color: orange; */
+    }
+
+    .box h1 {
+        font-size: 3rem;
+    }
+
+}
