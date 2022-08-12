@@ -56,7 +56,7 @@ export default function Home() {
     else if(winner === "draw") {
       setScore({...score, draw: score.draw+1});
     }
-  }, [winner, score]);
+  }, [winner]);
 
   return (
     <div className={styles.container}>
