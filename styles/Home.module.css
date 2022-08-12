@@ -75,6 +75,7 @@
   margin: 2rem auto;
   display: grid;
   grid-template-columns: repeat(3, 7rem);
+  grid-template-rows: repeat(3, 7rem);
   grid-column-gap: 0.1rem;
   grid-row-gap: 0.1rem;
   /* display: flex;
@@ -123,6 +124,7 @@
   .board {
     margin: 1rem auto;
     grid-template-columns: repeat(3, 5rem);
+    grid-template-rows: repeat(3, 5rem);
     /* background-color: brown; */
   }
 
@@ -138,6 +140,7 @@
   .board {
     margin: 1rem auto;
     grid-template-columns: repeat(3, 5.5rem);
+    grid-template-rows: repeat(3, 5.5rem);
     /* background-color: brown; */
   }
 
@@ -153,6 +156,7 @@
   .board {
     margin: 1rem auto;
     grid-template-columns: repeat(3, 6rem);
+    grid-template-rows: repeat(3, 6rem);
     /* background-color: brown; */
   }
 
@@ -167,6 +171,7 @@
 
   .board {
     grid-template-columns: repeat(3, 6.5rem);
+    grid-template-rows: repeat(3, 6.5rem);
     /* background-color: brown; */
   }
 
